@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    
+    .page1 {
+        height: 45vh;
+        width: 100%;
+    }
+
+    .page2 {
+        height: 50vh;
+        width: 100%;
+        /* padding: 1vw 1vw; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .page2 video {
+        height: 96%;
+        width: 98%;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .page3 {
+        height: 100%;
+        width: 100%;
+        padding: 1vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .page3 .items {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1vw;
+    }
+}
